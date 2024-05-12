@@ -10,6 +10,8 @@
         <module name="os_ssm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="oa-ssm" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
