@@ -24,7 +24,7 @@
             <bean class="org.springframework.http.converter.StringHttpMessageConverter">
                 <property name="supportedMediaTypes">
                     <list>
-                        <!--                            //相当于在servlet中写的response.setContentType("text/html;charset=utf-8")-->
+                        <!--//相当于在servlet中写的response.setContentType("text/html;charset=utf-8")-->
                         <value>text/plain;charset=UTF-8</value>
                         <value>text/html;charset=UTF-8</value>
                         <value>application/json;charset=UTF-8</value>
@@ -47,9 +47,9 @@
 
         <property name="dataSource" ref="dataSource"/>
 
-        <property name="configLocation" value="classpath*:mb.xml"/>
+        <property name="configLocation" value="classpath:mb.xml"/>
         <!--映射文件在哪里-->
-        <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
 
     </bean>
 

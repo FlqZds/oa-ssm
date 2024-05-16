@@ -1,7 +1,10 @@
 package org.sample.controller;
 
 import com.alibaba.fastjson2.JSON;
-import org.sample.common.info;
+import org.sample.common.result.ErrInfo;
+import org.sample.common.result.ResponseEnum;
+import org.sample.entity.TbUser;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,24 +12,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.annotation.Resource;
-
 @Controller
 @CrossOrigin("*")
 @ResponseBody
 public class userController {
-    @Resource
+    @Autowired
     private org.sample.service.userService use;
 
 
     @RequestMapping("asd")
-    public String showInfo(@RequestParam("name") String name1) {
+    public String showInfo(@RequestParam("name") String id) {
+
 
         String asd = use.asd();
 
-        String asd1 = use.asd();
+        int i = Integer.parseInt(id);
+        TbUser tbUser = use.findUser(i);
 
-        String s = JSON.toJSONString(new info("200", "成功进来了", name1, asd1));
+        String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS,tbUser));
 
         return s;
     }
