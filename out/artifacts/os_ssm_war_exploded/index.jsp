@@ -12,5 +12,6 @@
 </head>
 <body>
 Hello,guys！
+${msg}
 </body>
 </html>

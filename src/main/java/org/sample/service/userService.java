@@ -8,6 +8,7 @@ import org.sample.mapper.TbUserMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Data
 @Service
@@ -29,6 +30,13 @@ public class userService {
 
 
         return tbUser;
+    }
+
+    public List<TbUser> findUAllser(){
+        List<TbUser> tbUsers = tbUserMapper.selectAll();
+
+
+        return tbUsers;
     }
 }
 

@@ -138,6 +138,12 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
+
+  <select id="selectAll" resultType="org.sample.entity.TbUser">
+    select *
+    from tb_user;
+  </select>
+
   <update id="updateByExampleSelective" parameterType="map" >
     update tb_user
     <set >

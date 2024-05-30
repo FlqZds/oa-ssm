@@ -1,6 +1,8 @@
 package org.sample.controller;
 
 import com.alibaba.fastjson2.JSON;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.sample.common.result.ErrInfo;
 import org.sample.common.result.ResponseEnum;
 import org.sample.entity.TbUser;
@@ -12,36 +14,51 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.List;
+
 @Controller
 @CrossOrigin("*")
-@ResponseBody
 public class userController {
     @Autowired
     private org.sample.service.userService use;
 
 
+    @ApiOperation(value = "i_test_api", notes = "前后端分离接口测试")
     @RequestMapping("asd")
-    public String showInfo(@RequestParam("name") String id) {
+    @ResponseBody
+    public String showInfo(@ApiParam(name = "name", value = "用户id", required = true) @RequestParam("name") String id) {
 
-
-        String asd = use.asd();
 
         int i = Integer.parseInt(id);
         TbUser tbUser = use.findUser(i);
 
         String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS,tbUser));
 
+        System.out.println(s);
+        return s;
+    }
+
+    @RequestMapping("ars")
+    @ResponseBody
+    public String showInfo() {
+
+        List<TbUser> tbUsers = use.findUAllser();
+
+        String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS,tbUsers));
+
+        System.out.println(s);
         return s;
     }
 
 
+    @ApiOperation(value = "测试接口", notes = "测试接口,前后端不分离接口测试")
     @RequestMapping("qwe")
     public String showA(String name, ModelMap modelMap) {
 
         System.out.println("成功进来了" + name);
         String asd = use.asd();
         modelMap.put("msg", name + "is coming in……");
-        return "index";
+        return "index.jsp";
     }
 
 
