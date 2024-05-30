@@ -1682,3 +1682,829 @@ Looking for @ControllerAdvice: org.springframework.context.support.GenericApplic
 
 [INFO ] 2024-05-12 17:45:50,150 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
 Closing org.springframework.context.support.GenericApplicationContext@13805618: startup date [Sun May 12 17:45:49 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-28 16:52:35,868 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-28 16:52:35,882 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@20e2cbe0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68be2bc2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@28feb3fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@675d3402, org.springframework.test.context.transaction.TransactionalTestExecutionListener@51565ec2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@482f8f11]
+
+
+[INFO ] 2024-05-28 16:52:35,945 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-28 16:52:36,211 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue May 28 16:52:36 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-28 16:52:36,400 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-28 16:52:36,713 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-28 16:52:37,075 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-28 16:52:37,107 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-28 16:52:37,107 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-28 16:52:37,138 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue May 28 16:52:36 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-28 16:52:37,154 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue May 28 16:52:36 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-28 16:52:37,198 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue May 28 16:52:36 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:03:15,881 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:03:15,913 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1d057a39, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26be92ad, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4c70fda8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@224edc67, org.springframework.test.context.transaction.TransactionalTestExecutionListener@14acaea5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@46d56d67]
+
+
+[INFO ] 2024-05-29 09:03:16,023 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-29 09:03:16,498 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Wed May 29 09:03:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:03:16,720 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-29 09:03:17,003 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-29 09:03:17,476 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-29 09:03:17,541 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-29 09:03:17,541 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-29 09:03:17,587 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Wed May 29 09:03:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:03:17,652 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Wed May 29 09:03:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:03:17,742 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@10bdf5e5: startup date [Wed May 29 09:03:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:04:46,920 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:04:46,939 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@675d3402, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51565ec2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1593948d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b604f19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7823a2f9]
+
+
+[INFO ] 2024-05-29 09:04:47,000 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-29 09:04:47,175 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:04:47 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:04:47,407 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-29 09:04:47,712 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-29 09:04:48,092 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-29 09:04:48,141 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-29 09:04:48,141 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-29 09:04:48,192 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:04:47 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:04:48,219 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:04:47 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:04:48,363 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31hslffc6t2q4a|7c83dc97, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31hslffc6t2q4a|7c83dc97, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?characterEncoding=utf8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[WARN ] 2024-05-29 09:05:19,070 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@248c6948 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 0 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.ExportControlled.transformSocketToSSLSocket(ExportControlled.java:203)
+	at com.mysql.jdbc.MysqlIO.negotiateSSLConnection(MysqlIO.java:4901)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2191)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: protocol_version
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:318)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:185)
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:152)
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1401)
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1309)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:440)
+	at com.mysql.jdbc.ExportControlled.transformSocketToSSLSocket(ExportControlled.java:188)
+	... 23 more
+
+
+[WARN ] 2024-05-29 09:05:19,070 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[WARN ] 2024-05-29 09:05:19,070 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@797c8382 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 0 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.ExportControlled.transformSocketToSSLSocket(ExportControlled.java:203)
+	at com.mysql.jdbc.MysqlIO.negotiateSSLConnection(MysqlIO.java:4901)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2191)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: protocol_version
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:318)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:185)
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:152)
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1401)
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1309)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:440)
+	at com.mysql.jdbc.ExportControlled.transformSocketToSSLSocket(ExportControlled.java:188)
+	... 23 more
+
+
+[WARN ] 2024-05-29 09:05:19,070 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@12d94444 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 0 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.ExportControlled.transformSocketToSSLSocket(ExportControlled.java:203)
+	at com.mysql.jdbc.MysqlIO.negotiateSSLConnection(MysqlIO.java:4901)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2191)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: protocol_version
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:318)
+	at sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:185)
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:152)
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1401)
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1309)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:440)
+	at com.mysql.jdbc.ExportControlled.transformSocketToSSLSocket(ExportControlled.java:188)
+	... 23 more
+
+
+[WARN ] 2024-05-29 09:05:19,070 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[WARN ] 2024-05-29 09:05:19,070 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[INFO ] 2024-05-29 09:05:19,086 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:04:47 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:11:35,565 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:11:35,580 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@675d3402, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51565ec2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1593948d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b604f19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7823a2f9]
+
+
+[INFO ] 2024-05-29 09:11:35,628 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-29 09:11:35,910 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:11:35 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:11:36,052 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-29 09:11:36,335 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-29 09:11:36,662 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-29 09:11:36,694 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-29 09:11:36,694 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-29 09:11:36,725 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:11:35 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:11:36,750 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:11:35 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:11:36,820 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31hsu6qb7lzwgu|7c83dc97, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31hsu6qb7lzwgu|7c83dc97, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true?characterEncoding=utf-8?useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[WARN ] 2024-05-29 09:12:07,191 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@7a8b55f3 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?characterEncoding=utf-8?useSSL=false' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2512)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3140)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:763)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+
+
+[WARN ] 2024-05-29 09:12:07,191 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[WARN ] 2024-05-29 09:12:07,191 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@a12ffa -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?characterEncoding=utf-8?useSSL=false' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2512)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3140)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:763)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+
+
+[WARN ] 2024-05-29 09:12:07,191 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[WARN ] 2024-05-29 09:12:07,191 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@10ef9ebd -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?characterEncoding=utf-8?useSSL=false' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2512)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3140)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:763)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+
+
+[WARN ] 2024-05-29 09:12:07,191 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[INFO ] 2024-05-29 09:12:07,191 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:11:35 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:12:26,362 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:12:26,373 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@675d3402, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51565ec2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1593948d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b604f19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7823a2f9]
+
+
+[INFO ] 2024-05-29 09:12:26,420 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-29 09:12:26,624 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:12:26 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:12:26,812 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-29 09:12:27,097 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-29 09:12:27,458 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-29 09:12:27,489 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-29 09:12:27,489 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-29 09:12:27,521 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:12:26 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:12:27,552 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:12:26 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:12:27,631 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31hsv9wr1w6wvix|7c83dc97, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31hsv9wr1w6wvix|7c83dc97, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true?characterEncoding=utf-8?useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[WARN ] 2024-05-29 09:12:58,032 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@53fbad53 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?characterEncoding=utf-8?useSSL=false' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2512)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3140)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:763)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+
+
+[WARN ] 2024-05-29 09:12:58,032 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[WARN ] 2024-05-29 09:12:58,032 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@12fbba35 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?characterEncoding=utf-8?useSSL=false' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2512)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3140)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:763)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+
+
+[WARN ] 2024-05-29 09:12:58,032 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:214)
+com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2d3bba7f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true?characterEncoding=utf-8?useSSL=false' is not in this set.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.validateStringValues(ConnectionPropertiesImpl.java:314)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$BooleanConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:91)
+	at com.mysql.jdbc.ConnectionPropertiesImpl$ConnectionProperty.initializeFrom(ConnectionPropertiesImpl.java:216)
+	at com.mysql.jdbc.ConnectionPropertiesImpl.initializeProperties(ConnectionPropertiesImpl.java:2512)
+	at com.mysql.jdbc.ConnectionImpl.initializeDriverProperties(ConnectionImpl.java:3140)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:763)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:172)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1127)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1114)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1855)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+
+
+[WARN ] 2024-05-29 09:12:58,032 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[WARN ] 2024-05-29 09:12:58,032 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$WarnLogger.log(Slf4jMLog.java:211)
+Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@49c6c24f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+
+
+[INFO ] 2024-05-29 09:12:58,032 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:12:26 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:13:52,073 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:13:52,083 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@675d3402, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51565ec2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1593948d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b604f19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7823a2f9]
+
+
+[INFO ] 2024-05-29 09:13:52,147 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[ERROR] 2024-05-29 09:13:52,247 method:org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:234)
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11] to prepare test instance [test@436e852b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 40 in XML document from class path resource [sBean.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 106; 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:252)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:257)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:124)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:249)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 106; 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:399)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:326)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1466)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:913)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:447)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:250)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2783)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:338)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 37 more
+
+
+[INFO ] 2024-05-29 09:14:23,256 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:14:23,272 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@675d3402, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51565ec2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1593948d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b604f19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7823a2f9]
+
+
+[INFO ] 2024-05-29 09:14:23,318 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-29 09:14:23,506 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:23 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:23,679 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-29 09:14:23,947 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-29 09:14:24,294 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-29 09:14:24,325 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-29 09:14:24,325 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-29 09:14:24,356 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:23 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:24,372 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:23 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:24,451 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31hsxs2sea8lt8|7c83dc97, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31hsxs2sea8lt8|7c83dc97, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-29 09:14:24,624 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: select * from tb_user where tb_user = ? 
+
+
+[DEBUG] 2024-05-29 09:14:24,639 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==> Parameters: 1(Integer)
+
+
+[DEBUG] 2024-05-29 09:14:24,655 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+<==      Total: 1
+
+
+[INFO ] 2024-05-29 09:14:24,827 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:23 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:57,072 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-29 09:14:57,089 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@675d3402, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51565ec2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@482f8f11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1593948d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b604f19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7823a2f9]
+
+
+[INFO ] 2024-05-29 09:14:57,151 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-29 09:14:57,347 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:57 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:57,638 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-29 09:14:57,955 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-29 09:14:58,311 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-29 09:14:58,358 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-29 09:14:58,358 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-29 09:14:58,390 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:57 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:58,421 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:57 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-29 09:14:58,500 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31hsyi9z1mv7w5b|7c83dc97, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31hsyi9z1mv7w5b|7c83dc97, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-29 09:14:58,657 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: select * from tb_user where tb_user = ? 
+
+
+[DEBUG] 2024-05-29 09:14:58,672 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==> Parameters: 1(Integer)
+
+
+[DEBUG] 2024-05-29 09:14:58,691 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+<==      Total: 1
+
+
+[INFO ] 2024-05-29 09:14:58,831 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:57 CST 2024]; root of context hierarchy

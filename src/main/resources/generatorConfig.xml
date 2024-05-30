@@ -51,5 +51,6 @@
         <!-- 指定数据库表 -->
         <table schema="" tableName="db1.tb_good"></table>
         <table schema="" tableName="db1.tb_user"></table>
+
     </context>
 </generatorConfiguration>

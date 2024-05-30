@@ -14,7 +14,8 @@ public class test {
 @Test
     public void ts(){
     System.out.println("h");
-
+    String s = userController.showInfo("1");
+    System.out.println(s);
 }
 
 }

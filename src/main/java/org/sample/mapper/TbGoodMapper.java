@@ -1,11 +1,9 @@
 package org.sample.mapper;
 
+import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.sample.entity.TbGood;
 import org.sample.entity.TbGoodExample;
-
-import java.util.List;
-
 
 public interface TbGoodMapper {
     int countByExample(TbGoodExample example);

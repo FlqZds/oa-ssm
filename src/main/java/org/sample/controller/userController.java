@@ -39,7 +39,7 @@ public class userController {
     public String showA(String name, ModelMap modelMap) {
 
         System.out.println("成功进来了" + name);
-//        String asd = use.asd();
+        String asd = use.asd();
         modelMap.put("msg", name + "is coming in……");
         return "index";
     }

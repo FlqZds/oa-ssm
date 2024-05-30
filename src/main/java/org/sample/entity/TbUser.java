@@ -1,19 +1,13 @@
 package org.sample.entity;
 
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class TbUser {
     private Integer tbUser;
 
-    private String userName;
+    private String username;
 
-    private String userPassword;
+    private String userpassword;
+
+    private String account;
 
     public Integer getTbUser() {
         return tbUser;
@@ -23,19 +17,27 @@ public class TbUser {
         this.tbUser = tbUser;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
-    public String getUserPassword() {
-        return userPassword;
+    public String getUserpassword() {
+        return userpassword;
     }
 
-    public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword == null ? null : userPassword.trim();
+    public void setUserpassword(String userpassword) {
+        this.userpassword = userpassword == null ? null : userpassword.trim();
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account == null ? null : account.trim();
     }
 }

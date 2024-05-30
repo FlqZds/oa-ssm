@@ -3,8 +3,9 @@
 <mapper namespace="org.sample.mapper.TbUserMapper" >
   <resultMap id="BaseResultMap" type="org.sample.entity.TbUser" >
     <id column="tb_user" property="tbUser" jdbcType="INTEGER" />
-    <result column="user_name" property="userName" jdbcType="VARCHAR" />
-    <result column="user_password" property="userPassword" jdbcType="VARCHAR" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="userPassword" property="userpassword" jdbcType="VARCHAR" />
+    <result column="account" property="account" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -65,7 +66,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    tb_user, user_name, user_password
+    tb_user, username, userPassword, account
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="org.sample.entity.TbUserExample" >
     select
@@ -82,10 +83,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
-    select 
-    <include refid="Base_Column_List" />
-    from tb_user
-    where tb_user = #{tbUser,jdbcType=INTEGER}
+  select * from tb_user where tb_user = #{tbUser,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from tb_user
@@ -98,10 +96,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="org.sample.entity.TbUser" >
-    insert into tb_user (tb_user, user_name, user_password
-      )
-    values (#{tbUser,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{userPassword,jdbcType=VARCHAR}
-      )
+    insert into tb_user (tb_user, username, userPassword, 
+      account)
+    values (#{tbUser,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{userpassword,jdbcType=VARCHAR}, 
+      #{account,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="org.sample.entity.TbUser" >
     insert into tb_user
@@ -109,22 +107,28 @@
       <if test="tbUser != null" >
         tb_user,
       </if>
-      <if test="userName != null" >
-        user_name,
+      <if test="username != null" >
+        username,
       </if>
-      <if test="userPassword != null" >
-        user_password,
+      <if test="userpassword != null" >
+        userPassword,
+      </if>
+      <if test="account != null" >
+        account,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="tbUser != null" >
         #{tbUser,jdbcType=INTEGER},
       </if>
-      <if test="userName != null" >
-        #{userName,jdbcType=VARCHAR},
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
       </if>
-      <if test="userPassword != null" >
-        #{userPassword,jdbcType=VARCHAR},
+      <if test="userpassword != null" >
+        #{userpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="account != null" >
+        #{account,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -140,11 +144,14 @@
       <if test="record.tbUser != null" >
         tb_user = #{record.tbUser,jdbcType=INTEGER},
       </if>
-      <if test="record.userName != null" >
-        user_name = #{record.userName,jdbcType=VARCHAR},
+      <if test="record.username != null" >
+        username = #{record.username,jdbcType=VARCHAR},
       </if>
-      <if test="record.userPassword != null" >
-        user_password = #{record.userPassword,jdbcType=VARCHAR},
+      <if test="record.userpassword != null" >
+        userPassword = #{record.userpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="record.account != null" >
+        account = #{record.account,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -154,8 +161,9 @@
   <update id="updateByExample" parameterType="map" >
     update tb_user
     set tb_user = #{record.tbUser,jdbcType=INTEGER},
-      user_name = #{record.userName,jdbcType=VARCHAR},
-      user_password = #{record.userPassword,jdbcType=VARCHAR}
+      username = #{record.username,jdbcType=VARCHAR},
+      userPassword = #{record.userpassword,jdbcType=VARCHAR},
+      account = #{record.account,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -163,19 +171,23 @@
   <update id="updateByPrimaryKeySelective" parameterType="org.sample.entity.TbUser" >
     update tb_user
     <set >
-      <if test="userName != null" >
-        user_name = #{userName,jdbcType=VARCHAR},
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
       </if>
-      <if test="userPassword != null" >
-        user_password = #{userPassword,jdbcType=VARCHAR},
+      <if test="userpassword != null" >
+        userPassword = #{userpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="account != null" >
+        account = #{account,jdbcType=VARCHAR},
       </if>
     </set>
     where tb_user = #{tbUser,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="org.sample.entity.TbUser" >
     update tb_user
-    set user_name = #{userName,jdbcType=VARCHAR},
-      user_password = #{userPassword,jdbcType=VARCHAR}
+    set username = #{username,jdbcType=VARCHAR},
+      userPassword = #{userpassword,jdbcType=VARCHAR},
+      account = #{account,jdbcType=VARCHAR}
     where tb_user = #{tbUser,jdbcType=INTEGER}
   </update>
 </mapper>
