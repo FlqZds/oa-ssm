@@ -3,7 +3,6 @@ package org.sample.controller;
 import com.alibaba.fastjson2.JSON;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import org.sample.common.formValid.pojoValidator;
 import org.sample.common.result.ErrInfo;
 import org.sample.common.result.ResponseEnum;
 import org.sample.entity.TbUser;
@@ -15,20 +14,37 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.validation.Valid;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import java.util.List;
 
+
 @Controller
-@CrossOrigin("*")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class userController {
     @Autowired
     private org.sample.service.userService use;
+
+//    @Resource(name = "validator")
+//    private Validator validator;
 
 
     @ApiOperation(value = "i_test_api", notes = "前后端分离接口测试")
     @RequestMapping("asd")
     @ResponseBody
-    public String showInfo(@ApiParam(name = "name", value = "用户id", required = true) @RequestParam("name") String id) {
+    public String showInfo(@ApiParam(name = "name", value = "用户id", required = true) @RequestParam("name") String id, ServletRequest req, ServletResponse res) {
+
+
+        // 跨域设置(他有时候会失灵，所以要写一下)
+//        HttpServletRequest reqs = (HttpServletRequest) req;
+//        String curOrigin = reqs.getHeader("Origin");
+//        HttpServletResponse response = (HttpServletResponse) res;
+//        response.setHeader("Access-Control-Allow-Origin", curOrigin == null ? "true" : curOrigin);
+//        response.setHeader("Access-Control-Allow-Credentials", "true");
+//        response.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE, HEAD");
+//        response.setHeader("Access-Control-Max-Age", "3600");
+//        response.setHeader("Access-Control-Allow-Headers", "access-control-allow-origin, authority, content-type, version-info, X-Requested-With");
+//        response.setContentType("application/json;charset=UTF-8");
 
 
         int i = Integer.parseInt(id);
@@ -64,15 +80,24 @@ public class userController {
     }
 
 
-    @RequestMapping("register")
-    @ResponseBody
-    public String register(@Valid TbUser user) {
-        String[] register = use.register(user);
-        String soup = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS, register));
-                boolean validate = pojoValidator.validate(user);
-        return validate? soup : JSON.toJSONString(new ErrInfo(ResponseEnum.PARAM_ERROR, "参数错误"));
+//    @CrossOrigin(origins = "*")
+//    @RequestMapping("register")
+//    @ResponseBody
+//    public String register(@Valid TbUser user) {
+//        String[] register = use.register(user);
+//        String soup = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS, register));
+//
+//        Set<ConstraintViolation<TbUser>> validate = validator.validate(user);
+//        if (validate.size() > 0) {
+//            String error = "";
+//            for (ConstraintViolation<TbUser> constraintViolation : validate) {
+//                error += constraintViolation.getMessage() + " ";
+//            }
+//            return JSON.toJSONString(new ErrInfo(ResponseEnum.PARAM_ERROR, error));
+//        } else {
+//            return soup;
+//        }
 
-
-    }
+//    }
 
 }

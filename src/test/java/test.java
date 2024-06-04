@@ -1,6 +1,5 @@
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.sample.common.formValid.pojoValidator;
 import org.sample.entity.TbUser;
 import org.sample.mapper.TbUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +25,9 @@ public class test {
     tbUser.setUserpassword("eqwr12");
     tbUser.setAccount("");
 //        int i = tbUserMapper.registerUser(tbUser);
-        boolean validate = pojoValidator.validate(tbUser);
-        String s = validate ? "success" : "fail";
-        System.out.println("结果："+s);
+//        boolean validate = pojoValidator.validate(tbUser);
+//        String s = validate ? "success" : "fail";
+//        System.out.println("结果："+s);
     }
 
 }
