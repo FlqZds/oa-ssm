@@ -1,5 +1,8 @@
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.sample.common.formValid.pojoValidator;
+import org.sample.entity.TbUser;
+import org.sample.mapper.TbUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -11,11 +14,21 @@ public class test {
     @Autowired
     org.sample.controller.userController userController;
 
-@Test
+    @Autowired
+    TbUserMapper tbUserMapper;
+
+
+    @Test
     public void ts(){
     System.out.println("h");
-    String s = userController.showInfo("1");
-    System.out.println(s);
-}
+    TbUser tbUser = new TbUser();
+    tbUser.setUsername("qwe");
+    tbUser.setUserpassword("eqwr12");
+    tbUser.setAccount("");
+//        int i = tbUserMapper.registerUser(tbUser);
+        boolean validate = pojoValidator.validate(tbUser);
+        String s = validate ? "success" : "fail";
+        System.out.println("结果："+s);
+    }
 
 }

@@ -132,6 +132,9 @@
       </if>
     </trim>
   </insert>
+  <insert id="registerUser" useGeneratedKeys="true" keyProperty="tbUser">
+    insert  into tb_user (username, userPassword, account) values (#{username}, #{userpassword}, #{account})
+  </insert>
   <select id="countByExample" parameterType="org.sample.entity.TbUserExample" resultType="java.lang.Integer" >
     select count(*) from tb_user
     <if test="_parameter != null" >

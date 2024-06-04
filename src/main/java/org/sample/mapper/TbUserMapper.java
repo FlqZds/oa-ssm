@@ -15,6 +15,8 @@ public interface TbUserMapper {
 
     int insert(TbUser record);
 
+    int registerUser(TbUser record);
+
     int insertSelective(TbUser record);
 
     List<TbUser> selectByExample(TbUserExample example);

@@ -11,7 +11,10 @@ public enum ResponseEnum {
     SUCCESS("200","成功"),
     USERNAME_NOT_FOUND("300","用户名不存在"),
     USERNAME_OR_PASSWORD_INVALIDATE("301","用户名或者密码错误"),
+    PARAM_ERROR("400","参数错误"),
     SYSTEM_ERROR("500","发生未知异常，请联系管理员");
+
+
 
     private String code;
     private String message;

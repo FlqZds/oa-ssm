@@ -2508,3 +2508,1771 @@ Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireInc
 
 [INFO ] 2024-05-29 09:14:58,831 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
 Closing org.springframework.context.support.GenericApplicationContext@4566e5bd: startup date [Wed May 29 09:14:57 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:40:16,493 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 16:40:16,519 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-30 16:40:16,596 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 16:40:16,918 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:40:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:40:17,165 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 16:40:17,466 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 16:40:17,875 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 16:40:17,928 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 16:40:17,930 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 16:40:17,931 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 16:40:17,931 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 16:40:17,978 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 16:40:18,051 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:40:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:40:18,085 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:40:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:40:18,202 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31job1vg1bcx5oz|1f97cf0d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31job1vg1bcx5oz|1f97cf0d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 16:40:18,476 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[INFO ] 2024-05-30 16:40:18,503 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:40:16 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:43:58,552 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 16:43:58,567 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-30 16:43:58,629 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 16:43:58,846 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:43:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:43:59,043 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 16:43:59,411 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 16:43:59,795 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 16:43:59,824 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 16:43:59,826 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 16:43:59,826 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 16:43:59,826 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 16:43:59,849 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 16:43:59,895 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:43:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:43:59,914 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:43:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:43:59,980 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31joft2uvyshgu|1f97cf0d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31joft2uvyshgu|1f97cf0d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 16:44:00,175 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[INFO ] 2024-05-30 16:44:00,202 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:43:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:45:11,160 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 16:45:11,179 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-30 16:45:11,245 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 16:45:11,458 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:45:11 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:45:11,668 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 16:45:11,983 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 16:45:12,349 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 16:45:12,383 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 16:45:12,385 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 16:45:12,385 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 16:45:12,385 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 16:45:12,409 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 16:45:12,451 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:45:11 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:45:12,474 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:45:11 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:45:12,541 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31johd3w3qeeji|1f97cf0d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31johd3w3qeeji|1f97cf0d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 16:45:12,728 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[INFO ] 2024-05-30 16:45:12,756 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:45:11 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:46:02,227 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 16:46:02,244 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-30 16:46:02,298 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 16:46:02,522 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:46:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:46:02,737 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 16:46:03,060 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 16:46:03,443 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 16:46:03,479 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 16:46:03,482 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 16:46:03,482 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 16:46:03,483 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 16:46:03,515 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 16:46:03,557 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:46:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:46:03,579 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:46:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:46:03,645 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31joigijfqa6px|1f97cf0d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31joigijfqa6px|1f97cf0d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 16:46:03,835 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[INFO ] 2024-05-30 16:46:03,859 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:46:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:47:02,085 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 16:47:02,101 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-30 16:47:02,156 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 16:47:02,388 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:47:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:47:02,603 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 16:47:02,882 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 16:47:03,328 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 16:47:03,380 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 16:47:03,382 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 16:47:03,382 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 16:47:03,383 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 16:47:03,420 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 16:47:03,480 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:47:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:47:03,504 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:47:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:47:03,571 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31jojqpb1xsoq02|1f97cf0d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31jojqpb1xsoq02|1f97cf0d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 16:47:03,758 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[INFO ] 2024-05-30 16:47:03,786 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Thu May 30 16:47:02 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:49:38,221 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 16:49:38,252 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d9d1a19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39c0f4a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1794d431, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42e26948, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57baeedf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@343f4d3d]
+
+
+[INFO ] 2024-05-30 16:49:38,336 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 16:49:38,615 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 16:49:38 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:49:38,842 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 16:49:39,214 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 16:49:39,672 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 16:49:39,720 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 16:49:39,723 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 16:49:39,723 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 16:49:39,723 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 16:49:39,762 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 16:49:39,826 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 16:49:38 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:49:39,860 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 16:49:38 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 16:49:39,985 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31jon39hnh77ds|378542de, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31jon39hnh77ds|378542de, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 16:49:40,249 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[DEBUG] 2024-05-30 16:49:40,271 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==> Parameters: null, test(String), test(String), test@test.com(String)
+
+
+[DEBUG] 2024-05-30 16:49:40,281 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+<==    Updates: 1
+
+
+[INFO ] 2024-05-30 16:49:40,293 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 16:49:38 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:10:54,788 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 17:10:54,912 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47dfbba3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6c6d3ce5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2de77ecf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d502d6c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@27688fc6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@226715da]
+
+
+[INFO ] 2024-05-30 17:10:55,535 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 17:10:56,795 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@53a1baf5: startup date [Thu May 30 17:10:56 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:10:58,047 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 17:10:58,339 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 17:10:59,674 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 17:10:59,918 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 17:10:59,923 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 17:10:59,924 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 17:10:59,925 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 17:11:00,068 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 17:11:00,354 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@53a1baf5: startup date [Thu May 30 17:10:56 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:11:00,481 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@53a1baf5: startup date [Thu May 30 17:10:56 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:11:00,797 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31jpeickcmmdwo|3ece2e4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31jpeickcmmdwo|3ece2e4, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 17:11:03,011 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[DEBUG] 2024-05-30 17:11:03,109 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==> Parameters: null, test(String), test(String), test@test.com(String)
+
+
+[DEBUG] 2024-05-30 17:11:03,119 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+<==    Updates: 1
+
+
+[INFO ] 2024-05-30 17:11:03,149 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@53a1baf5: startup date [Thu May 30 17:10:56 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:12:09,242 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-30 17:12:09,262 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d9d1a19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39c0f4a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1794d431, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42e26948, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57baeedf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@343f4d3d]
+
+
+[INFO ] 2024-05-30 17:12:09,333 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-30 17:12:09,600 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 17:12:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:12:09,848 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-30 17:12:10,156 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-30 17:12:10,560 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-30 17:12:10,600 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser,org.springframework.validation.BindingResult)
+
+
+[INFO ] 2024-05-30 17:12:10,601 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-30 17:12:10,602 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-30 17:12:10,603 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-30 17:12:10,632 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-30 17:12:10,686 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 17:12:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:12:10,709 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 17:12:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-30 17:12:10,818 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgewapb31jpg1ps1dnwzgj|378542de, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgewapb31jpg1ps1dnwzgj|378542de, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+
+
+[DEBUG] 2024-05-30 17:12:11,056 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==>  Preparing: insert into tb_user (tb_user,username, userPassword, account) values (?,?, ?, ?) 
+
+
+[DEBUG] 2024-05-30 17:12:11,079 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+==> Parameters: null, test(String), test(String), test@test.com(String)
+
+
+[DEBUG] 2024-05-30 17:12:11,085 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)
+<==    Updates: 1
+
+
+[INFO ] 2024-05-30 17:12:11,096 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@3e9b1010: startup date [Thu May 30 17:12:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:23:44,497 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 09:23:44,523 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-31 09:23:44,595 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 09:23:44,870 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:23:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:23:45,098 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 09:23:45,471 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 09:23:45,855 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 09:23:45,892 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 09:23:45,894 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 09:23:45,895 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 09:23:45,895 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 09:23:45,928 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-31 09:23:45,981 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:23:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:23:46,004 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:23:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:23:46,068 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:23:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:28:43,648 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 09:28:43,673 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-31 09:28:43,751 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 09:28:44,158 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:28:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:28:44,395 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 09:28:44,700 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 09:28:45,190 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 09:28:45,240 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 09:28:45,243 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 09:28:45,243 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 09:28:45,244 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 09:28:45,288 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.0.17.Final
+
+
+[INFO ] 2024-05-31 09:28:45,359 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:28:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:28:45,395 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:28:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:28:45,606 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:28:44 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:56:51,401 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 09:56:51,418 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-31 09:56:51,471 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 09:56:51,703 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:56:51 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:56:51,905 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 09:56:52,189 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 09:56:52,557 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 09:56:52,616 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 09:56:52,618 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 09:56:52,619 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 09:56:52,620 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 09:56:52,654 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.0.17.Final
+
+
+[INFO ] 2024-05-31 09:56:52,719 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:56:51 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:56:52,751 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:56:51 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 09:56:52,893 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 09:56:51 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:01:19,974 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:01:19,997 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:01:20,058 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:01:20,512 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:01:20 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:01:20,748 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:01:21,065 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:01:21,470 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:01:21,511 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:01:21,513 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:01:21,514 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:01:21,514 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:01:21,536 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:01:21,613 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:01:20 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:01:21,636 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:01:20 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:01:21,738 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:01:20 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:06:41,329 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:06:41,353 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:06:41,420 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:06:41,655 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:06:41 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:06:41,912 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:06:42,225 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:06:42,567 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:06:42,600 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:06:42,602 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:06:42,603 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:06:42,603 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:06:42,625 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:06:42,687 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:06:41 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:06:42,711 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:06:41 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:06:42,805 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:06:41 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:09,099 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:07:09,115 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:07:09,169 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:07:09,378 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:09,580 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:07:09,885 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:07:10,252 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:07:10,291 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:07:10,294 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:07:10,294 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:07:10,295 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:07:10,318 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:07:10,383 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:10,402 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:10,491 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:09 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:25,134 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:07:25,154 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:07:25,210 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:07:25,417 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:25 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:25,617 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:07:25,906 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:07:26,292 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:07:26,330 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:07:26,333 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:07:26,333 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:07:26,334 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:07:26,357 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:07:26,423 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:25 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:26,443 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:25 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:26,530 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:25 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:46,654 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:07:46,670 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:07:46,724 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:07:46,928 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:46 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:47,131 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:07:47,414 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:07:47,773 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:07:47,812 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:07:47,815 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:07:47,815 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:07:47,816 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:07:47,838 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:07:47,911 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:46 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:47,931 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:46 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:48,017 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:46 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:58,270 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:07:58,286 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:07:58,343 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:07:58,554 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:58,755 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:07:59,036 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:07:59,381 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:07:59,422 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:07:59,424 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:07:59,424 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:07:59,425 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:07:59,448 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:07:59,510 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:59,530 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:07:59,643 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:07:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:08:06,956 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:08:06,977 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:08:07,033 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:08:07,237 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:08:07 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:08:07,424 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:08:07,724 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:08:08,088 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:08:08,121 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:08:08,123 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:08:08,123 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:08:08,124 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:08:08,145 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:08:08,210 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:08:07 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:08:08,229 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:08:07 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:08:08,314 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:08:07 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:09:17,455 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 10:09:17,470 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 10:09:17,527 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 10:09:17,748 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:09:17 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:09:17,955 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 10:09:18,243 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 10:09:18,593 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 10:09:18,646 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 10:09:18,647 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 10:09:18,648 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 10:09:18,648 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 10:09:18,676 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 10:09:18,750 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:09:17 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:09:18,772 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:09:17 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 10:09:18,880 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 10:09:17 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:11:38,412 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 16:11:38,432 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 16:11:38,505 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 16:11:39,026 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:11:39 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:11:39,226 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 16:11:39,511 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 16:11:39,969 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 16:11:40,009 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 16:11:40,011 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 16:11:40,012 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 16:11:40,012 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 16:11:40,045 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 16:11:40,135 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:11:39 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:11:40,165 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:11:39 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:11:40,305 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:11:39 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:04,979 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 16:12:04,995 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 16:12:05,051 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 16:12:05,252 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:05 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:05,461 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 16:12:05,749 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 16:12:06,105 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 16:12:06,143 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 16:12:06,146 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 16:12:06,147 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 16:12:06,147 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 16:12:06,170 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 16:12:06,248 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:05 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:06,272 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:05 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:06,363 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:05 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:53,966 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 16:12:53,982 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 16:12:54,036 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 16:12:54,235 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:54 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:54,436 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 16:12:54,711 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 16:12:55,069 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 16:12:55,108 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 16:12:55,111 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 16:12:55,112 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 16:12:55,112 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 16:12:55,136 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 16:12:55,235 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:54 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:55,263 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:54 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:12:55,373 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:12:54 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:15:02,799 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 16:15:02,814 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c62251, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66a3ffec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77caeb3e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e88b3c]
+
+
+[INFO ] 2024-05-31 16:15:02,866 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 16:15:03,073 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:15:03 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:15:03,268 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 16:15:03,533 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 16:15:03,896 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 16:15:03,931 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 16:15:03,933 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 16:15:03,934 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 16:15:03,934 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 16:15:03,956 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:27)
+HV000001: Hibernate Validator 5.1.0.Final
+
+
+[INFO ] 2024-05-31 16:15:04,040 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:15:03 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:15:04,067 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:15:03 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:15:04,166 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5383967b: startup date [Fri May 31 16:15:03 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:24:52,405 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-05-31 16:24:52,426 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59f99ea, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27efef64, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f7fd0e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47c62251, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e6fa38a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ffec]
+
+
+[INFO ] 2024-05-31 16:24:52,478 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-05-31 16:24:52,833 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 16:24:52 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:24:53,022 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-05-31 16:24:53,301 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-05-31 16:24:53,697 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-05-31 16:24:53,735 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-05-31 16:24:53,738 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-05-31 16:24:53,738 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-05-31 16:24:53,739 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-05-31 16:24:53,770 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.2.0.Final
+
+
+[INFO ] 2024-05-31 16:24:53,820 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 16:24:52 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:24:53,845 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 16:24:52 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-05-31 16:24:53,908 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Fri May 31 16:24:52 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:22:31,269 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-06-04 10:22:31,326 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66a3ffec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@77caeb3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e88b3c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@42d80b78, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bfdc050]
+
+
+[INFO ] 2024-06-04 10:22:31,482 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-06-04 10:22:32,081 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:22:32 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:22:32,429 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-06-04 10:22:32,848 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-06-04 10:22:33,446 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-06-04 10:22:33,495 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-06-04 10:22:33,495 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-06-04 10:22:33,495 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-06-04 10:22:33,495 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-06-04 10:22:33,529 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.0.13.Final
+
+
+[INFO ] 2024-06-04 10:22:33,824 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:22:32 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:22:33,862 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:22:32 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:22:34,077 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:22:32 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:30,666 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-06-04 10:25:30,692 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66a3ffec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@77caeb3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e88b3c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@42d80b78, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bfdc050]
+
+
+[INFO ] 2024-06-04 10:25:30,749 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-06-04 10:25:30,982 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:30 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:31,197 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-06-04 10:25:31,566 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-06-04 10:25:32,217 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-06-04 10:25:32,282 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-06-04 10:25:32,282 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-06-04 10:25:32,282 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-06-04 10:25:32,282 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-06-04 10:25:32,352 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.0.13.Final
+
+
+[INFO ] 2024-06-04 10:25:32,581 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:30 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:32,630 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:30 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:32,799 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:30 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:58,094 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-06-04 10:25:58,110 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66a3ffec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@77caeb3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e88b3c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@42d80b78, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bfdc050]
+
+
+[INFO ] 2024-06-04 10:25:58,177 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-06-04 10:25:58,393 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:58,596 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-06-04 10:25:58,909 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-06-04 10:25:59,343 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-06-04 10:25:59,394 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-06-04 10:25:59,394 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-06-04 10:25:59,394 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-06-04 10:25:59,394 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-06-04 10:25:59,425 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.0.13.Final
+
+
+[INFO ] 2024-06-04 10:25:59,618 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:59,641 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:25:59,790 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:25:58 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:26:12,399 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+[INFO ] 2024-06-04 10:26:12,418 method:org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:174)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e6fa38a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66a3ffec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@77caeb3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e88b3c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@42d80b78, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bfdc050]
+
+
+[INFO ] 2024-06-04 10:26:12,496 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [sBean.xml]
+
+
+[INFO ] 2024-06-04 10:26:12,715 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:26:12 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:26:12,946 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+MLog clients using slf4j logging.
+
+
+[INFO ] 2024-06-04 10:26:13,253 method:com.mchange.v2.log.slf4j.Slf4jMLog$Slf4jMLogger$InfoLogger.log(Slf4jMLog.java:203)
+Initializing c3p0-0.9.5-pre10 [built 06-November-2014 02:02:55 -0800; debug? true; trace: 10]
+
+
+[INFO ] 2024-06-04 10:26:13,680 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)
+Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+
+
+[INFO ] 2024-06-04 10:26:13,731 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/register]}" onto public java.lang.String org.sample.controller.userController.register(org.sample.entity.TbUser)
+
+
+[INFO ] 2024-06-04 10:26:13,731 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/asd]}" onto public java.lang.String org.sample.controller.userController.showInfo(java.lang.String)
+
+
+[INFO ] 2024-06-04 10:26:13,731 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/ars]}" onto public java.lang.String org.sample.controller.userController.showInfo()
+
+
+[INFO ] 2024-06-04 10:26:13,731 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/qwe]}" onto public java.lang.String org.sample.controller.userController.showA(java.lang.String,org.springframework.ui.ModelMap)
+
+
+[INFO ] 2024-06-04 10:26:13,763 method:org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)
+HV000001: Hibernate Validator 6.0.13.Final
+
+
+[INFO ] 2024-06-04 10:26:14,048 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:26:12 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:26:14,080 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:26:12 CST 2024]; root of context hierarchy
+
+
+[INFO ] 2024-06-04 10:26:14,215 method:org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)
+Closing org.springframework.context.support.GenericApplicationContext@71423665: startup date [Tue Jun 04 10:26:12 CST 2024]; root of context hierarchy

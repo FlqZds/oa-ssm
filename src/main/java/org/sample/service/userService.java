@@ -18,26 +18,36 @@ public class userService {
     @Resource
     TbUserMapper tbUserMapper;
 
-    public String asd(){
+    public String asd() {
 
         return "hello World ……& ^-^";
     }
 
 
-
-    public TbUser findUser(Integer id){
+    public TbUser findUser(Integer id) {
         TbUser tbUser = tbUserMapper.selectByPrimaryKey(id);
 
 
         return tbUser;
     }
 
-    public List<TbUser> findUAllser(){
+    public List<TbUser> findUAllser() {
         List<TbUser> tbUsers = tbUserMapper.selectAll();
 
 
         return tbUsers;
     }
+
+    public String[]  register(TbUser tbUser) {
+
+        int insert = tbUserMapper.registerUser(tbUser);
+        Integer tbUser1 = tbUser.getTbUser();
+        String[] result = new String[2];
+        result[0] = insert + "";
+        result[1] = tbUser1 + "";
+        return result;
+    }
+
 }
 
 

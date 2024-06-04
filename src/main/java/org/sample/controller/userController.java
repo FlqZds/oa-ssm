@@ -3,6 +3,7 @@ package org.sample.controller;
 import com.alibaba.fastjson2.JSON;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import org.sample.common.formValid.pojoValidator;
 import org.sample.common.result.ErrInfo;
 import org.sample.common.result.ResponseEnum;
 import org.sample.entity.TbUser;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -32,7 +34,7 @@ public class userController {
         int i = Integer.parseInt(id);
         TbUser tbUser = use.findUser(i);
 
-        String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS,tbUser));
+        String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS, tbUser));
 
         System.out.println(s);
         return s;
@@ -44,7 +46,7 @@ public class userController {
 
         List<TbUser> tbUsers = use.findUAllser();
 
-        String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS,tbUsers));
+        String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS, tbUsers));
 
         System.out.println(s);
         return s;
@@ -61,5 +63,16 @@ public class userController {
         return "index.jsp";
     }
 
+
+    @RequestMapping("register")
+    @ResponseBody
+    public String register(@Valid TbUser user) {
+        String[] register = use.register(user);
+        String soup = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS, register));
+                boolean validate = pojoValidator.validate(user);
+        return validate? soup : JSON.toJSONString(new ErrInfo(ResponseEnum.PARAM_ERROR, "参数错误"));
+
+
+    }
 
 }
