@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans" default-autowire="byName"
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+       default-autowire="byName"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,7 +9,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-4.3.xsd
         http://www.springframework.org/schema/mvc
-        http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+        http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <!--去哪里扫描controller bean-->
     <context:component-scan base-package="org.sample"/>
@@ -37,7 +38,8 @@
     <!--数据源 切记去掉mb 中的数据源的配置-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/db1?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost:3306/db1?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"/>
         <property name="user" value="root"/>
         <property name="password" value="123456"/>
     </bean>
@@ -60,6 +62,22 @@
         <property name="basePackage" value="org.sample.mapper"/>
 
     </bean>
+
+    <!--
+    SpringAOP对于最外层的函数只拦截public方法，不拦截protected和private方法，
+    另外不会对最外层的public方法内部调用的其他方法也进行拦截，
+    即只停留于代理对象所调用的方法。
+ .-->
+    <aop:aspectj-autoproxy proxy-target-class="true" expose-proxy="true"/>
+    <!--    <bean id="myAspect" class="org.sample.aspect.MyAspect"/>-->
+
+    <!--    <aop:config>-->
+    <!--        <aop:aspect ref="myAspect" id="myAspect" order="1">-->
+    <!--            <aop:pointcut id="myAspect_01" expression="execution(* org.sample.service.*.*(..))"/>-->
+    <!--            <aop:before method="jpBefore" pointcut-ref="myAspect_01"/>-->
+    <!--            <aop:after method="jpAfter" pointcut-ref="myAspect_01"/>-->
+    <!--        </aop:aspect>-->
+    <!--    </aop:config>-->
 
 
 </beans>

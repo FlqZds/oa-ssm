@@ -46,7 +46,6 @@ public class userController {
 //        response.setHeader("Access-Control-Allow-Headers", "access-control-allow-origin, authority, content-type, version-info, X-Requested-With");
 //        response.setContentType("application/json;charset=UTF-8");
 
-
         int i = Integer.parseInt(id);
         TbUser tbUser = use.findUser(i);
 

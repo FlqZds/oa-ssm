@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-//@EnableSpringConfigured
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:sBean.xml")
 public class test {
@@ -23,6 +22,7 @@ public class test {
     TbUser tbUser = new TbUser();
     tbUser.setUsername("qwe");
     tbUser.setUserpassword("eqwr12");
+
     tbUser.setAccount("");
 //        int i = tbUserMapper.registerUser(tbUser);
 //        boolean validate = pojoValidator.validate(tbUser);
@@ -30,4 +30,12 @@ public class test {
 //        System.out.println("结果："+s);
     }
 
+    @Autowired
+    org.sample.service.userService userSer;
+    @Test
+    public void test1(){
+        System.out.println(userSer.asd());
+
+        System.out.println(userSer.findUAllser());
+    }
 }
