@@ -38,7 +38,8 @@
     <!--数据源 切记去掉mb 中的数据源的配置-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/db1?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost:3306/db1?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"/>
         <property name="user" value="root"/>
         <property name="password" value="123456"/>
     </bean>
@@ -62,17 +63,34 @@
 
     </bean>
 
-
+    <!--
+    SpringAOP对于最外层的函数只拦截public方法，不拦截protected和private方法，
+    另外不会对最外层的public方法内部调用的其他方法也进行拦截，
+    即只停留于代理对象所调用的方法。
+ .-->
     <aop:aspectj-autoproxy proxy-target-class="true" expose-proxy="true"/>
-<!--    <bean id="myAspect" class="org.sample.aspect.MyAspect"/>-->
+    <!--    <bean id="myAspect" class="org.sample.aspect.MyAspect"/>-->
 
-<!--    <aop:config>-->
-<!--        <aop:aspect ref="myAspect" id="myAspect" order="1">-->
-<!--            <aop:pointcut id="myAspect_01" expression="execution(* org.sample.service.*.*(..))"/>-->
-<!--            <aop:before method="jpBefore" pointcut-ref="myAspect_01"/>-->
-<!--            <aop:after method="jpAfter" pointcut-ref="myAspect_01"/>-->
-<!--        </aop:aspect>-->
-<!--    </aop:config>-->
+    <!--    <aop:config>-->
+    <!--        <aop:aspect ref="myAspect" id="myAspect" order="1">-->
+    <!--            <aop:pointcut id="myAspect_01" expression="execution(* org.sample.service.*.*(..))"/>-->
+    <!--            <aop:before method="jpBefore" pointcut-ref="myAspect_01"/>-->
+    <!--            <aop:after method="jpAfter" pointcut-ref="myAspect_01"/>-->
+    <!--        </aop:aspect>-->
+    <!--    </aop:config>-->
 
+<!--    配置拦截器   -->
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--
+            * 只代表一层   /adduser  /deluser
+            /**  代表n层   /user/add   /user/del   /goods/add
+            -->
+            <mvc:mapping path="/user/**"/>
+            <mvc:exclude-mapping path="/user/del"/>
+            <bean class="org.sample.interceptor.myInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>

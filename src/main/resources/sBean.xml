@@ -79,5 +79,18 @@
     <!--        </aop:aspect>-->
     <!--    </aop:config>-->
 
+<!--    配置拦截器   -->
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--
+            * 只代表一层   /adduser  /deluser
+            /**  代表n层   /user/add   /user/del   /goods/add
+            -->
+            <mvc:mapping path="/user/**"/>
+            <mvc:exclude-mapping path="/user/del"/>
+            <bean class="org.sample.interceptor.myInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>
