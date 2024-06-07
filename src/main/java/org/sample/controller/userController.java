@@ -76,7 +76,7 @@ public class userController {
         System.out.println("成功进来了" + name);
         String asd = use.asd();
         modelMap.put("msg", name + "is coming in……");
-        return "index.jsp";
+        return "a";
     }
 
 

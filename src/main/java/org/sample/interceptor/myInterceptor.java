@@ -22,8 +22,8 @@ public class myInterceptor implements HandlerInterceptor {
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
         System.err.println("现已拦截请求，地址为controller执行之后，modelAndView渲染之前");
-        if (modelAndView != null) {
-            System.out.println("这是我拦截的东西："+modelAndView.getModelMap().get("s").toString());
+        if (modelAndView != null&& modelAndView.getModelMap().get("s")!= null){
+            System.out.println("这是我拦截的东西：");
         }else {
             System.out.println("modelAndView 为null");
         }
