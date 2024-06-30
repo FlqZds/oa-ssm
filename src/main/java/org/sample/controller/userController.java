@@ -33,7 +33,7 @@ public class userController {
     @ApiOperation(value = "i_test_api", notes = "前后端分离接口测试")
     @RequestMapping("asd")
     @ResponseBody
-    public String showInfo(@ApiParam(name = "name", value = "用户id", required = true) @RequestParam("name") String id, ServletRequest req, ServletResponse res) {
+    public String showInfo(@ApiParam(name = "name", value = "用户id", required = false) @RequestParam("name") String id, ServletRequest req, ServletResponse res) {
 
 
         // 跨域设置(他有时候会失灵，所以要写一下)
@@ -64,6 +64,8 @@ public class userController {
 
         String s = JSON.toJSONString(new ErrInfo(ResponseEnum.SUCCESS, tbUsers));
 
+        int i=1;
+        i/=0;
         System.out.println(s);
         return s;
     }
@@ -77,6 +79,16 @@ public class userController {
         String asd = use.asd();
         modelMap.put("msg", name + "is coming in……");
         return "a";
+    }
+
+    @ApiOperation(value = "测试接口", notes = "测试接口,前后端不分离接口测试")
+    @RequestMapping("err")
+    public String showDel(String name, ModelMap modelMap) {
+
+        System.out.println(" 我想去测试一下" + name);
+        String asd = use.asd();
+        modelMap.put("msg", name + "is coming in……");
+        return "err";
     }
 
 

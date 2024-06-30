@@ -41,7 +41,7 @@
         <property name="jdbcUrl"
                   value="jdbc:mysql://localhost:3306/db1?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"/>
         <property name="user" value="root"/>
-        <property name="password" value="123456"/>
+        <property name="password" value="12345"/>
     </bean>
 
     <!--配置session 工厂 切记去掉 mb.xml 中的映射的配置-->
@@ -95,7 +95,7 @@
             /**  代表n层   /user/add   /user/del   /goods/add
             -->
             <mvc:mapping path="/user/**"/>
-            <mvc:exclude-mapping path="/user/del"/>
+            <mvc:exclude-mapping path="/user/del/*"/>   <!-- 排除拦截的访问地址 -->
             <bean class="org.sample.interceptor.myInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
